@@ -1,0 +1,526 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-02-15 09:55+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: agreement_evaluations/__init__.py:4
+msgid "Agreement_Evaluations"
+msgstr "Agreement Evaluations"
+
+#: agreement_evaluations/__init__.py:5
+msgid "agreement_evaluations"
+msgstr "Agreement Evaluations"
+
+#: comments_classification/settings.py:103
+msgid "English"
+msgstr ""
+
+#: comments_classification/settings.py:104
+msgid "Italian"
+msgstr ""
+
+#: source_code_analysis/__init__.py:4
+msgid "Source_Code_Analysis"
+msgstr "Source Code Analysis"
+
+#: source_code_analysis/__init__.py:5
+msgid "source_code_analysis"
+msgstr "Source Code Analysis"
+
+#: source_code_analysis/admin.py:79
+msgid ""
+"The generation of the code base of 1 Project has been started and will "
+"be                         completed shortly. Please hold on a few minutes "
+"and refresh this page to                         check for updates."
+msgstr ""
+
+#: source_code_analysis/admin.py:83
+#, python-format
+msgid ""
+"The generation of the code base of %d Projects have been started "
+"and                         will be completed shortly. Please hold on a few "
+"minutes and                         refresh this page to check for updates."
+msgstr ""
+
+#: source_code_analysis/admin.py:91
+msgid "1 selected Software Project has"
+msgstr ""
+
+#: source_code_analysis/admin.py:93
+#, python-format
+msgid "%d selected Software Projects have"
+msgstr ""
+
+#: source_code_analysis/admin.py:94
+#, python-format
+msgid ""
+"%s been ignored since the corresponding Code "
+"Base                                          was not empty!"
+msgstr ""
+
+#: source_code_analysis/admin.py:97
+msgid "Generate Code Base"
+msgstr ""
+
+#: source_code_analysis/admin.py:112
+msgid "Project Code Base Statistics"
+msgstr ""
+
+#: source_code_analysis/admin.py:118
+msgid "Project Website"
+msgstr ""
+
+#: source_code_analysis/admin.py:158
+msgid ""
+"The code analysis process is now working in background. Please check in a "
+"few moments"
+msgstr ""
+
+#: source_code_analysis/admin.py:205
+msgid "Lines of Code"
+msgstr ""
+
+#: source_code_analysis/admin.py:211 source_code_analysis/admin.py:426
+#: source_code_analysis/models.py:163
+msgid "Code Fragment"
+msgstr ""
+
+#: source_code_analysis/admin.py:217 source_code_analysis/models.py:164
+msgid "Code Comment"
+msgstr ""
+
+#: source_code_analysis/admin.py:230
+msgid "<b>Source File not found in the DB</b>"
+msgstr ""
+
+#: source_code_analysis/admin.py:232
+msgid "Source File"
+msgstr ""
+
+#: source_code_analysis/admin.py:251 source_code_analysis/forms.py:206
+msgid "Method Code"
+msgstr ""
+
+#: source_code_analysis/admin.py:255 source_code_analysis/forms.py:208
+msgid "Method Comment"
+msgstr ""
+
+#: source_code_analysis/admin.py:284
+msgid "Class Code"
+msgstr ""
+
+#: source_code_analysis/admin.py:288
+msgid "Class Comment"
+msgstr ""
+
+#: source_code_analysis/admin.py:308 source_code_analysis/models.py:255
+#: source_code_analysis/models.py:268
+msgid "Class"
+msgstr ""
+
+#: source_code_analysis/admin.py:313 source_code_analysis/admin.py:316
+msgid "Number of Methods"
+msgstr ""
+
+#: source_code_analysis/admin.py:375 source_code_analysis/models.py:278
+msgid "Method"
+msgstr ""
+
+#: source_code_analysis/admin.py:408
+msgid "Code-Comments Evaluation"
+msgstr ""
+
+#: source_code_analysis/admin.py:413
+msgid "Method Information"
+msgstr ""
+
+#: source_code_analysis/admin.py:432
+msgid "Comment"
+msgstr ""
+
+#: source_code_analysis/admin.py:442 source_code_analysis/models.py:288
+msgid "Error in Association"
+msgstr ""
+
+#: source_code_analysis/admin.py:449
+msgid "Are you not sure enough? <br><br> Please take a look at the "
+msgstr ""
+
+#: source_code_analysis/admin.py:450
+#, python-format
+msgid "Code file for %s method"
+msgstr ""
+
+#: source_code_analysis/admin.py:451
+msgid "for the method "
+msgstr ""
+
+#: source_code_analysis/admin.py:470
+msgid ""
+"What is the agreement rate between this Comment "
+"and                                 corresponding Method code?"
+msgstr ""
+
+#: source_code_analysis/admin.py:511 source_code_analysis/models.py:286
+#: source_code_analysis/settings.py:32
+msgid "Agreement"
+msgstr ""
+
+#: source_code_analysis/forms.py:148
+msgid "The input file is not a valid Compressed Archive"
+msgstr ""
+
+#: source_code_analysis/forms.py:152 source_code_analysis/forms.py:155
+msgid "The Input file is not a valid Compressed Archive"
+msgstr ""
+
+#: source_code_analysis/forms.py:200
+msgid "Method name"
+msgstr ""
+
+#: source_code_analysis/forms.py:202 source_code_analysis/models.py:160
+msgid "Start line"
+msgstr ""
+
+#: source_code_analysis/forms.py:204
+msgid "End line"
+msgstr ""
+
+#: source_code_analysis/forms.py:248 source_code_analysis/models.py:241
+#: source_code_analysis/models.py:267
+msgid "Project"
+msgstr ""
+
+#: source_code_analysis/forms.py:253 source_code_analysis/forms.py:273
+#: source_code_analysis/forms.py:292
+msgid "All"
+msgstr ""
+
+#: source_code_analysis/forms.py:268
+msgid "Code Class"
+msgstr ""
+
+#: source_code_analysis/forms.py:288 source_code_analysis/models.py:290
+msgid "Evaluated"
+msgstr ""
+
+#: source_code_analysis/forms.py:292
+msgid "False"
+msgstr ""
+
+#: source_code_analysis/forms.py:293
+msgid "True"
+msgstr ""
+
+#: source_code_analysis/models.py:30
+msgid "Project Name"
+msgstr ""
+
+#: source_code_analysis/models.py:32
+msgid "Project Version"
+msgstr ""
+
+#: source_code_analysis/models.py:34
+msgid "Project URL"
+msgstr ""
+
+#: source_code_analysis/models.py:37
+msgid "Source Folder Path"
+msgstr ""
+
+#: source_code_analysis/models.py:38
+msgid "Path on server where source code files have been extracted."
+msgstr ""
+
+#: source_code_analysis/models.py:45
+msgid ""
+"The main programming language of the Software system. <br> Please note that "
+"so far, only the <b>Java</b> language analysis is supported."
+msgstr ""
+
+#: source_code_analysis/models.py:49
+msgid "Programming Language"
+msgstr ""
+
+#: source_code_analysis/models.py:104
+msgid "Software Project"
+msgstr ""
+
+#: source_code_analysis/models.py:105
+msgid "Software Projects"
+msgstr ""
+
+#: source_code_analysis/models.py:135
+msgid "Source file Path"
+msgstr ""
+
+#: source_code_analysis/models.py:136
+msgid "Path on server where source code file has been saved."
+msgstr ""
+
+#: source_code_analysis/models.py:139
+msgid "Source Code Text"
+msgstr ""
+
+#: source_code_analysis/models.py:151
+msgid "Source Code File"
+msgstr ""
+
+#: source_code_analysis/models.py:152
+msgid "Source Code Files"
+msgstr ""
+
+#: source_code_analysis/models.py:159
+msgid "Filepath"
+msgstr ""
+
+#: source_code_analysis/models.py:161
+msgid "End Line"
+msgstr ""
+
+#: source_code_analysis/models.py:166
+msgid "AST"
+msgstr ""
+
+#: source_code_analysis/models.py:237
+msgid "Class Name"
+msgstr ""
+
+#: source_code_analysis/models.py:256
+msgid "Classes"
+msgstr ""
+
+#: source_code_analysis/models.py:263
+msgid "Method Name"
+msgstr ""
+
+#: source_code_analysis/models.py:279
+msgid "Methods"
+msgstr ""
+
+#: source_code_analysis/models.py:283
+msgid "Evaluator"
+msgstr ""
+
+#: source_code_analysis/models.py:295
+msgid "Evaluation Created on"
+msgstr ""
+
+#: source_code_analysis/models.py:297
+msgid "Last Update"
+msgstr ""
+
+#: source_code_analysis/models.py:300
+msgid "Evaluated on"
+msgstr ""
+
+#: source_code_analysis/models.py:322
+msgid "Evaluation"
+msgstr ""
+
+#: source_code_analysis/models.py:323
+msgid "Evaluations"
+msgstr ""
+
+#: source_code_analysis/settings.py:28
+msgid "Strong Disagreement"
+msgstr ""
+
+#: source_code_analysis/settings.py:30
+msgid "Strong Agreement"
+msgstr ""
+
+#: source_code_analysis/settings.py:34
+msgid "Don't Know"
+msgstr ""
+
+#: source_code_analysis/settings.py:36
+msgid "Disagreement"
+msgstr ""
+
+#: source_code_analysis/templates/admin/admin_filter_forms.html:4
+msgid "Filter by"
+msgstr ""
+
+#: source_code_analysis/templates/admin/admin_filter_forms.html:16
+msgid "Apply the filter"
+msgstr ""
+
+#: source_code_analysis/templates/admin/admin_filter_forms.html:17
+msgid "Go"
+msgstr ""
+
+#: templates/admin/app_index.html:7 templates/admin/base.html:47
+#: templates/admin/change_form.html:18 templates/admin/change_list.html:40
+#: templates/admin/delete_confirmation.html:6
+#: templates/admin/delete_selected_confirmation.html:6
+#: templates/admin/object_history.html:6
+msgid "Home"
+msgstr ""
+
+#: templates/admin/base.html:28
+msgid "Welcome,"
+msgstr ""
+
+#: templates/admin/base.html:33
+msgid "Documentation"
+msgstr ""
+
+#: templates/admin/base.html:36
+msgid "Change password"
+msgstr ""
+
+#: templates/admin/base.html:38
+msgid "Log out"
+msgstr ""
+
+#: templates/admin/base_site.html:4
+msgid "Code Comments Evaluation Platform"
+msgstr ""
+
+#: templates/admin/change_form.html:24 templates/admin/index.html:34
+msgid "Add"
+msgstr ""
+
+#: templates/admin/change_form.html:36 templates/admin/object_history.html:13
+msgid "History"
+msgstr ""
+
+#: templates/admin/change_form.html:38
+msgid "View on site"
+msgstr ""
+
+#: templates/admin/change_form.html:49 templates/admin/change_list.html:70
+msgid "Please correct the error below."
+msgstr ""
+
+#: templates/admin/change_form.html:49 templates/admin/change_list.html:70
+msgid "Please correct the errors below."
+msgstr ""
+
+#: templates/admin/change_list.html:61
+#, python-format
+msgid "Add %(name)s"
+msgstr ""
+
+#: templates/admin/change_list.html:81
+msgid "Filter"
+msgstr ""
+
+#: templates/admin/delete_confirmation.html:13
+msgid "Delete"
+msgstr ""
+
+#: templates/admin/delete_confirmation.html:20
+#, python-format
+msgid ""
+"Deleting the %(object_name)s '%(escaped_object)s' would result in deleting "
+"related objects, but your account doesn't have permission to delete the "
+"following types of objects:"
+msgstr ""
+
+#: templates/admin/delete_confirmation.html:28
+#, python-format
+msgid ""
+"Deleting the %(object_name)s '%(escaped_object)s' would require deleting the "
+"following protected related objects:"
+msgstr ""
+
+#: templates/admin/delete_confirmation.html:36
+#, python-format
+msgid ""
+"Are you sure you want to delete the %(object_name)s \"%(escaped_object)s\"? "
+"All of the following related items will be deleted:"
+msgstr ""
+
+#: templates/admin/delete_confirmation.html:41
+#: templates/admin/delete_selected_confirmation.html:46
+msgid "Yes, I'm sure"
+msgstr ""
+
+#: templates/admin/delete_selected_confirmation.html:12
+msgid "Delete multiple objects"
+msgstr ""
+
+#: templates/admin/delete_selected_confirmation.html:19
+#, python-format
+msgid ""
+"Deleting the selected %(objects_name)s would result in deleting related "
+"objects, but your account doesn't have permission to delete the following "
+"types of objects:"
+msgstr ""
+
+#: templates/admin/delete_selected_confirmation.html:27
+#, python-format
+msgid ""
+"Deleting the selected %(objects_name)s would require deleting the following "
+"protected related objects:"
+msgstr ""
+
+#: templates/admin/delete_selected_confirmation.html:35
+#, python-format
+msgid ""
+"Are you sure you want to delete the selected %(objects_name)s? All of the "
+"following objects and their related items will be deleted:"
+msgstr ""
+
+#: templates/admin/index.html:20
+#, python-format
+msgid "Models in the %(name)s application"
+msgstr ""
+
+#: templates/admin/index.html:40
+msgid "Change"
+msgstr ""
+
+#: templates/admin/index.html:50
+msgid "You don't have permission to edit anything."
+msgstr ""
+
+#: templates/admin/index.html:58
+msgid "Recent Actions"
+msgstr ""
+
+#: templates/admin/index.html:59
+msgid "My Actions"
+msgstr ""
+
+#: templates/admin/index.html:63
+msgid "None available"
+msgstr ""
+
+#: templates/admin/index.html:77
+msgid "Unknown content"
+msgstr ""
+
+#: templates/admin/object_history.html:25
+msgid "Date/time"
+msgstr ""
+
+#: templates/admin/object_history.html:26
+msgid "User"
+msgstr ""
+
+#: templates/admin/object_history.html:27
+msgid "Action"
+msgstr ""
+
+#: templates/admin/object_history.html:41
+msgid ""
+"This object doesn't have a change history. It probably wasn't added via this "
+"admin site."
+msgstr ""

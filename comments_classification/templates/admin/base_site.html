@@ -1,0 +1,42 @@
+{% extends "admin/base.html" %}
+{% load i18n %}
+
+{% block extrastyle %}
+    <style type="text/css">
+        #branding {
+            display: inline-flex;
+        }
+
+        #branding form {
+            display: inline;
+            margin: auto;
+        }
+    </style>
+{% endblock %}
+
+{% block title %}{{ title }} | {% trans 'Code Comments Evaluation Platform' %}{% endblock %}
+
+{% block branding %}
+    <h1 id="site-name"><span>Code-Comments Agreement Evaluation Tool</span></h1>
+    {% if user.is_active and user.is_staff %}
+        {#    <form action="{% url 'set_language' %}" method="post">#}
+        <form action="/i18n/setlang/" method="post">
+            {% csrf_token %}
+            <input name="next" type="hidden" value="{{ redirect_to }}" />
+            <select name="language">
+                {% get_language_info_list for LANGUAGES as languages %}
+                {% for language in languages %}
+                    <option value="{{ language.code }}"{% if language.code == LANGUAGE_CODE %} selected="selected"{% endif %}>
+                        {{ language.name_local }} ({{ language.code }})
+                    </option>
+                {% endfor %}
+            </select>
+            <button type="submit" class="button" title="{% trans "Switch to Language" %}">
+                {% trans "Go" %}
+            </button>
+        </form>
+    {% endif %}
+
+{% endblock %}
+
+{% block nav-global %}{% endblock %}

@@ -1,0 +1,48 @@
+{% extends "admin/change_list.html"%}
+{% load admin_filter_forms %}
+
+{% block extrastyle %}
+    {{ block.super }}
+    <style type="text/css">
+        .filtered #toolbar, .filtered .actions
+        {
+            margin-right: 0 !important;
+        }
+
+        .change-list .filtered .results, .change-list .filtered .paginator, .filtered #toolbar, .filtered div.xfull {
+            margin-right: 0 !important;
+            width: auto !important;
+        }
+
+    .agreement_rate {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .agreement_rate p {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    </style>
+{% endblock %}
+
+{% load  static from staticfiles%}
+
+{% block extrahead %}
+    {#    {{ block.super }}#}
+    <script type="text/javascript" src="{% static "admin/js/jquery.js" %}"></script>
+    <script type="text/javascript" src="{% static "admin/js/jquery.init.js" %}"></script>
+    <script type="text/javascript" src="{% static "js/admin_agreement_eval.js" %}">
+    </script>
+{% endblock %}
+
+{% block search %}
+    {{ block.super }}
+    {% if filter_formset %}
+        {% admin_filter_forms %}
+    {% endif %}
+{% endblock %}
+
+{% block filters %}
+{% endblock %}

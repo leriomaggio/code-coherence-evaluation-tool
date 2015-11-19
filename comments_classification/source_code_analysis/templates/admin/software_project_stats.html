@@ -1,0 +1,45 @@
+{% extends "admin/change_form.html" %}
+{% load i18n %}
+
+{% block extrahead %}
+    {{ block.super }}
+
+    <style type="text/css">
+
+    .stats_title {
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+    .image_placeholder {
+        width: 100%;
+        margin: 10px 5px;
+    }
+    </style>
+{% endblock %}
+
+{% block content %}
+    <div id="content-main">
+{#        {% block object-tools %}#}
+{#            {{ block.super }}#}
+{#        {% endblock %}#}
+
+        <div class="stats_title">
+            {% trans "Statistics about the Project" %} {{ project.name }} ({{ project.version }})
+        </div>
+
+{#        <img src="./generate_chart/" alt="Project Bar Chart Statistic" />#}
+        {% if barchart %}
+            <div class="image_placeholder">
+                {{ barchart|safe }}
+            </div>
+        {% endif %}
+
+
+        {% if piechart %}
+            <div class="image_placeholder">
+                {{ piechart|safe }}
+            </div>
+        {% endif %}
+    </div>
+{% endblock %}
