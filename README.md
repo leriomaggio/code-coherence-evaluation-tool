@@ -38,26 +38,26 @@ proper *virtual environment* for the specific sake:
     pip install -r requirements.txt
     
 ## Setup Database
-    Once the environment has been properly set up, it is finally necessary to create a database 
-    using **PostgreSQL** (`9.3`). For further details on this, please refer to the 
-    [official documentation](http://www.postgresql.org/docs/9.3/static/), 
-    depending on your machine and operating system.
-    
-    Please refer to the `DATABASES` directive in the *Main Settings* 
-    (`code_comments_coherence/code_comments_coherence/settings.py`) to see the details about 
-    database name and corresponding authentication parameters.
+Once the environment has been properly set up, it is finally necessary to create a database 
+using **PostgreSQL** (`9.3`). For further details on this, please refer to the 
+[official documentation](http://www.postgresql.org/docs/9.3/static/), 
+depending on your machine and operating system.
+
+Please refer to the `DATABASES` directive in the *Main Settings* 
+(`code_comments_coherence/code_comments_coherence/settings.py`) to see the details about 
+database name and corresponding authentication parameters.
 
 ## Restore Database
 
-    The code ships with the set of initial data to **re-create** the database from scratch.
-    
-    The data are provided in the form of `fixtures`, located in the `source_code_analysis/fixture` folder.
-    
-    This folder contains the `initial_data` archive, and the corresponding instructions to unpack it.
-     
-    To recreate the entire (*Structure+Data*), it is necessary to execute the following command:
-    
-        python manage.py syncdb
+The code ships with the set of initial data to **re-create** the database from scratch.
+
+The data are provided in the form of `fixtures`, located in the `source_code_analysis/fixture` folder.
+
+This folder contains the `initial_data` archive, and the corresponding instructions to unpack it.
+ 
+To recreate the entire (*Structure+Data*), it is necessary to execute the following command:
+
+    python manage.py syncdb
 
 # References
 
