@@ -66,9 +66,9 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.locale.LocaleMiddleware',  # Added this to enable Language Switching
 )
 
-ROOT_URLCONF = 'comments_classification.urls'
+ROOT_URLCONF = 'code_comments_coherence.urls'
 
-WSGI_APPLICATION = 'comments_classification.wsgi.application'
+WSGI_APPLICATION = 'code_comments_coherence.wsgi.application'
 
 
 # Database
