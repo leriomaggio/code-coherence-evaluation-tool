@@ -58,6 +58,13 @@ This folder contains the `initial_data` archive, and the corresponding instructi
 To recreate the entire (*Structure+Data*), it is necessary to execute the following command:
 
     python manage.py syncdb
+    
+# Additional Notes
+
+In case it is necessary to upload the source code of **new** software projects, it is required to have
+a set of **Celery workers** running on a **RabbitMQ** queue.
+
+To spawn server(s), please take a look at the `RUNNING_Servers.md` file.
 
 # References
 
