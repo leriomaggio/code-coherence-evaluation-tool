@@ -91,7 +91,7 @@ class NavigablePygmentsCodeWidget(PygmentsCodeWidget):
 
     def render(self, name, value, attrs=None):
         """
-        Display the code stream into a referenciable HTML
+        Display the code stream into a referable HTML
         table with an hyperlink for each line of the source file.
         """
         if value is None:
